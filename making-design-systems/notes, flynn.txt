@@ -1,0 +1,10 @@
+Speak by Dan Mall, creator of Design System University which opens on the 5th.
+ -- Lookup DSU "Study Hall" talks.
+We'll get an online version of the content after the talk? So, these notes won't be the only thing.
+Can get a certificate from DSU, yay?
+Why do retired mathmeticians often end up as gravediggers? They enjoy the cemetery/symmetry.
+ -- Design Systems, a good book by Alla Matova
+A design system is both every piece, and the separate pieces. (Much like if you break a big rock down, the smaller pieces are also rocks)
+Have to avoid putting the work in the wrong place; don't spend a whole week mocking stuff in figma, when you could very quickly do something in actual CSS or whatnot.
+ -- Anders Flanders, weird one man band
+Trying to do it all by yourself is going to burn you out, and probably suck; don't suck, join together design, product, and engineering.
