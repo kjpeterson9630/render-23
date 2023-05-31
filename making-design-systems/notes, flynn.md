@@ -10,6 +10,18 @@ References for further reading:
  - Interface Inventory, by Brad Frost?
  - Crafting Strategy, Henry Mintzberg
  - Brad Frost and Dan Mall youtube video; 2 hours of "hot potato" devsign.
+ - cssStats.com, a tool to analyze the CSS your website loads
+ - Evergreen, a tool to track adoption rate for a design system.
+ - Measuring Design System Success, Nathan Curtis?
+ - Change by Design, Tim Brown
+ - How to make sense of any mess, Abby Covert
+ - Interviewing Users, by Steve...portavale?
+ - Drive, by Daniel Pink
+ - Design Systems Slack Channel
+ - DesignSystem.university/templates
+    - icons for portraying design systems
+    - pitch deck for design systems
+    - RenderATL2023 is a code that will give you access to this course at DSU 
 
 
 We'll get an online version of the content after the talk? So, these notes won't be the only thing.
@@ -177,3 +189,68 @@ Designers should be "in service" to developers, in that since developers are the
 Much faster getting to software if both engineers and designers are working **actually** in tandem, rather than working separately on the same thing in serial.
 
     What's bananas is that people are more willing to write an AI tool to take natural language into code, than sit a designer with a developer and do that same thing.
+
+## What is the DEAL with success, anyway?
+
+Two things that you get from design systems: Efficiency, Consistency. These two things are pretty easily trackable; measure some things before design system, then after, and maybe give the design system a few go rounds before passing judgement.
+
+Example metrics for Efficiency:
+- Speed to market
+- Dev time
+- QA time
+- Bugs filed
+
+Example metrics for Consistency:
+- CSS Redundancy
+- Negative customer feedback
+
+All of this is driving one thing:
+    
+    The Holy Grail of design system metrics is adoption.
+
+Philly.com: Launching six different sites all using a common design base. They started off by asking 3 questions:
+ 1) Why redesign the site?
+ 2) Why redesign the site NOW?
+ 3) How will we know if the new site is better than the old one?
+
+ Take the responses, kind of coalesce into "Themes" then prioritize those themes based on a cross-discipline dot voting committee; this gives you a top 3 (or however many) goals that you want your design to help accomplish.
+
+ *Should your voting be demarcated by group the voter is in?*
+
+ No, because the idea is to produce objectives from the aggregate whole.
+
+ John Doerr introduced google to OKRs, or ```Objectives & Key Results```
+
+ - Objectives: Big, scary, ambitious movements.
+ - Key Results: A measure and a delta. 
+
+ JND, the Just Noticeable Difference. Time intervals are prone to a JND of between 7%-18% on average for periods with a duration of less than 30s.
+
+    One of the biggest values of OKRs is a guide for next quarter's OKRs.
+
+Since OKRs have measures and deltas, you can grade them; average out how much you moved the needle out of how much you wanted to.
+
+Quantitative metrics are important, but not ALL important; the focus on them is a bit of an overcorrection from a past where only qualitative metrics were gathered.
+
+AMP is what drives people:
+
+A) Autonomy, the desire to direct our own lives
+
+M) Mastery, the urge to make progress and get better at something that matters
+
+P) Purpose, the yearning to do what we do in service of something larger than ourselves
+
+Add third item to the efficiency/consistency success metrics: **Relief.** It should be a relief to use the design system.
+- Turnover
+- Job Satisfaction
+- Multiply creativity and innovation
+- Team Engagement
+
+Charlie Munger said: Punishment works best to *prevent* actions, whereas incentives work best to *encourage* them.
+
+Design system team's goal: Adoption.
+Product Teams' goal: Customer value.
+
+    Choose their goal, because they will adopt your design system if you bring customer value.
+
+Design systems need to start by showing "millenium falcons" instead of bricks and bits. It's great to be pragmatic about results, but it's also great to have a hype man, get people excited!
