@@ -9,6 +9,7 @@ References for further reading:
  - Do/Scale/, Ls McKeown
  - Interface Inventory, by Brad Frost?
  - Crafting Strategy, Henry Mintzberg
+ - Brad Frost and Dan Mall youtube video; 2 hours of "hot potato" devsign.
 
 
 We'll get an online version of the content after the talk? So, these notes won't be the only thing.
@@ -142,3 +143,37 @@ Yes, and no; lawsuits can happen and drive change, but in general that still jus
 
 *A lot of consensus on how most of accessibility misses are due to ignorance, not being unwilling to do it. And how not having resources dedicated to usability studies can really hamper development.*
 
+## Work, Flow: drawing new lines
+Agile Transformation is the best analog to implementing a design system, in that it's not something you "buy" or "plug in" but rather a change in how you get things done.
+
+    When it comes to making web products, front-end development is more important than visual design.
+
+You don't **need** pretty animations to get value to the customer, though those enhance the experience; you **need** something that conveys and operates on data.
+
+    When it comes to making web products, front-end languages are more important that back-end technology.
+
+Design systems are exciting, because they are equally powerful for engineers AND designers, not just one or the other. How to start on a product? Open a code editor?!?! Madness!
+
+One of the values of working in code, to start, is that it's very quick, and very quick things don't have to be good. *People are NOT having a good time with him calling a plaintext HTML page a product. His previous hot takes landed much easier. One reason why designers are on edge is because code feels more final, and it's more technical as opposed to figma which is absolutely untechnical.*
+
+    Engineers win.
+
+Really pulling at the thread of "what is good enough for a first pass" which he argues could be as little as raw text in HTML. In essence, it is not an immutable truth that you always need to put a pretty thing up first, OR that you need nothing more than text in a box; it's a cultural question.
+
+*The audience points out that HTML, raw engineering is far more "actual" than Figma. And that Figma designs aren't the ten commandments.*
+
+In six months, a designer can start contributing to Storybook; going from zero code to contributing design code. Any developer worth their salt can whiteboard in code, most are just too afraid to. 
+
+This isn't to say that Designers don't do anything, or that they just become developers. They stop being pixel pushers, they start doing art directing by words.
+
+Designers can start putting together pretty elements, divorced from context; engineers and designers BOTH need to get better at doing disposable, failable work. 
+
+    Engineers finish a design; it's not finished when handed from a designer to developer, it's finished when it's published in code.
+
+Since engineers are the ones who finish something, why not have them start something too? And, since we're giving engineers more to do...designers get to own colors, radii, etc. In essence, get JUST enough spun up on code to push CSS or whatnot to define design constants.
+
+Designers should be "in service" to developers, in that since developers are the ones delivering the product; rather than driving the developers from delivery of design, drive the delivery of designs by developing.
+
+Much faster getting to software if both engineers and designers are working **actually** in tandem, rather than working separately on the same thing in serial.
+
+    What's bananas is that people are more willing to write an AI tool to take natural language into code, than sit a designer with a developer and do that same thing.
