@@ -19,4 +19,15 @@ This guy CSS's, he hates mobile browsers covering up page elements. Use grid ins
 
 I think what I really dislike about this guy is that he gives off big "you can't tell a joke anymore!" vibes.
 
-Container...units? 
+Container...units? You can do container type, have to set that up, then use cqi and it scales it based on the container size! :o
+
+Container Query Units and Fluid Typography, Stephanie Eck__
+
+Starts a point about how you can't know where a component will render, finishes it with container queries will fix that by being like a viewport, but for a specific container! Parent has to be the container, then style the children.
+
+layers?!?!? A way of specifically laying out hierarchies, so that you don't need to use a bunch of specificity engineering! You can throw bootstrap, or whatnot, into an unnamed layer and then your stuff wins because no layer is higher than...other layer. 
+
+Apparently CSS hasn't kept up with colors super duper; OKLCH! Okay, lich.
+Lightness, Chroma, Hue, and OK. Color spaces? Probably need to research that. 
+
+viewTransitions API! You get it for freeee? And you can use names to link things together.
