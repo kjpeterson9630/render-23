@@ -9,6 +9,19 @@ References for further reading:
  - Do/Scale/, Ls McKeown
  - Interface Inventory, by Brad Frost?
  - Crafting Strategy, Henry Mintzberg
+ - Brad Frost and Dan Mall youtube video; 2 hours of "hot potato" devsign.
+ - cssStats.com, a tool to analyze the CSS your website loads
+ - Evergreen, a tool to track adoption rate for a design system.
+ - Measuring Design System Success, Nathan Curtis?
+ - Change by Design, Tim Brown
+ - How to make sense of any mess, Abby Covert
+ - Interviewing Users, by Steve...portavale?
+ - Drive, by Daniel Pink
+ - Design Systems Slack Channel
+ - DesignSystem.university/templates
+    - icons for portraying design systems
+    - pitch deck for design systems
+    - RenderATL2023 is a code that will give you access to this course at DSU 
 
 
 We'll get an online version of the content after the talk? So, these notes won't be the only thing.
@@ -142,3 +155,102 @@ Yes, and no; lawsuits can happen and drive change, but in general that still jus
 
 *A lot of consensus on how most of accessibility misses are due to ignorance, not being unwilling to do it. And how not having resources dedicated to usability studies can really hamper development.*
 
+## Work, Flow: drawing new lines
+Agile Transformation is the best analog to implementing a design system, in that it's not something you "buy" or "plug in" but rather a change in how you get things done.
+
+    When it comes to making web products, front-end development is more important than visual design.
+
+You don't **need** pretty animations to get value to the customer, though those enhance the experience; you **need** something that conveys and operates on data.
+
+    When it comes to making web products, front-end languages are more important that back-end technology.
+
+Design systems are exciting, because they are equally powerful for engineers AND designers, not just one or the other. How to start on a product? Open a code editor?!?! Madness!
+
+One of the values of working in code, to start, is that it's very quick, and very quick things don't have to be good. *People are NOT having a good time with him calling a plaintext HTML page a product. His previous hot takes landed much easier. One reason why designers are on edge is because code feels more final, and it's more technical as opposed to figma which is absolutely untechnical.*
+
+    Engineers win.
+
+Really pulling at the thread of "what is good enough for a first pass" which he argues could be as little as raw text in HTML. In essence, it is not an immutable truth that you always need to put a pretty thing up first, OR that you need nothing more than text in a box; it's a cultural question.
+
+*The audience points out that HTML, raw engineering is far more "actual" than Figma. And that Figma designs aren't the ten commandments.*
+
+In six months, a designer can start contributing to Storybook; going from zero code to contributing design code. Any developer worth their salt can whiteboard in code, most are just too afraid to. 
+
+This isn't to say that Designers don't do anything, or that they just become developers. They stop being pixel pushers, they start doing art directing by words.
+
+Designers can start putting together pretty elements, divorced from context; engineers and designers BOTH need to get better at doing disposable, failable work. 
+
+    Engineers finish a design; it's not finished when handed from a designer to developer, it's finished when it's published in code.
+
+Since engineers are the ones who finish something, why not have them start something too? And, since we're giving engineers more to do...designers get to own colors, radii, etc. In essence, get JUST enough spun up on code to push CSS or whatnot to define design constants.
+
+Designers should be "in service" to developers, in that since developers are the ones delivering the product; rather than driving the developers from delivery of design, drive the delivery of designs by developing.
+
+Much faster getting to software if both engineers and designers are working **actually** in tandem, rather than working separately on the same thing in serial.
+
+    What's bananas is that people are more willing to write an AI tool to take natural language into code, than sit a designer with a developer and do that same thing.
+
+## What is the DEAL with success, anyway?
+
+Two things that you get from design systems: Efficiency, Consistency. These two things are pretty easily trackable; measure some things before design system, then after, and maybe give the design system a few go rounds before passing judgement.
+
+Example metrics for Efficiency:
+- Speed to market
+- Dev time
+- QA time
+- Bugs filed
+
+Example metrics for Consistency:
+- CSS Redundancy
+- Negative customer feedback
+
+All of this is driving one thing:
+    
+    The Holy Grail of design system metrics is adoption.
+
+Philly.com: Launching six different sites all using a common design base. They started off by asking 3 questions:
+ 1) Why redesign the site?
+ 2) Why redesign the site NOW?
+ 3) How will we know if the new site is better than the old one?
+
+ Take the responses, kind of coalesce into "Themes" then prioritize those themes based on a cross-discipline dot voting committee; this gives you a top 3 (or however many) goals that you want your design to help accomplish.
+
+ *Should your voting be demarcated by group the voter is in?*
+
+ No, because the idea is to produce objectives from the aggregate whole.
+
+ John Doerr introduced google to OKRs, or ```Objectives & Key Results```
+
+ - Objectives: Big, scary, ambitious movements.
+ - Key Results: A measure and a delta. 
+
+ JND, the Just Noticeable Difference. Time intervals are prone to a JND of between 7%-18% on average for periods with a duration of less than 30s.
+
+    One of the biggest values of OKRs is a guide for next quarter's OKRs.
+
+Since OKRs have measures and deltas, you can grade them; average out how much you moved the needle out of how much you wanted to.
+
+Quantitative metrics are important, but not ALL important; the focus on them is a bit of an overcorrection from a past where only qualitative metrics were gathered.
+
+AMP is what drives people:
+
+A) Autonomy, the desire to direct our own lives
+
+M) Mastery, the urge to make progress and get better at something that matters
+
+P) Purpose, the yearning to do what we do in service of something larger than ourselves
+
+Add third item to the efficiency/consistency success metrics: **Relief.** It should be a relief to use the design system.
+- Turnover
+- Job Satisfaction
+- Multiply creativity and innovation
+- Team Engagement
+
+Charlie Munger said: Punishment works best to *prevent* actions, whereas incentives work best to *encourage* them.
+
+Design system team's goal: Adoption.
+Product Teams' goal: Customer value.
+
+    Choose their goal, because they will adopt your design system if you bring customer value.
+
+Design systems need to start by showing "millenium falcons" instead of bricks and bits. It's great to be pragmatic about results, but it's also great to have a hype man, get people excited!
